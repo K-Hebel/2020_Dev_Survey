@@ -27,14 +27,14 @@ This analysis is part of an iterative process and will continue to see improveme
 
 ## **Files Used :**
  The files used in this analysis were:
- 1) The StackOverflow dataset - survey_results_public.csv
+ 1) The 2020 StackOverflow dataset [HERE](https://insights.stackoverflow.com/survey/?_ga=2.206748819.1859624778.1609725307-1677851539.1609725307) - survey_results_public.csv
  2) The StackOverflow schema - survey_results_schema.csv
  3) IMF 2019 per capita gdp for select countries -
  imf_data.csv
  * From the IMF Datamapper [HERE](https://www.imf.org/external/datamapper/NGDPDPC@WEO/USA/GBR/ESP/NLD/DEU/CAN/BEL/BRA/FRA/ITA/POL/IDN/GRC/ISR/CZE/BGR/HUN/SWE/CHE/UKR/IND/MEX/NGA/ROU/PRT/FIN/AUT/AUS/TUR/IRL/EST/PHL/LKA/HRV/ARG/IRN/NOR/LTU/DNK/SRB/SVK/RUS/BGD/ZAF/COL/CHL/CHN/NZL/SGP/VNM/MYS/JPN "IMF GDP Per Capita current prices US Dollars")  and based on the information provided by the  World Economic Outlook for October 2020 for GDP
  4) The jupyter notebook for this analysis - 2020 StackOverflow Survey - Project 1.ipynb
 
-## **Understanding the Data**
+# **Understanding the Data**
 **To specifically respond to each question presented above, we used the following data:**
 1) StackOverflow dataset - column: 'Country' and
  imf_data.csv  country per capita GDP, for the year 2019.  
@@ -53,7 +53,7 @@ This analysis is part of an iterative process and will continue to see improveme
  * features = ['Hobbyist', 'Age1stCode','Age', 'Country','DevType','Gender', 'JobSat',
             'YearsCodePro','OrgSize', 'ConvertedComp']
 
-## **Preparing the Data**
+# **Preparing the Data**
 1) All data was gathered based on the files listed in the heading 'Files Used'
 
 2) From the StackOverFlow dataset - All rows without a value for 'ConvertedComp' in the StackOverFlow dataset were dropped as 'ConvertedComp' is the basis for this analysis.
@@ -70,7 +70,7 @@ This analysis is part of an iterative process and will continue to see improveme
 
 8) For modeling purposed, features in the model with NaN values were imputed based on 'most_frequent' value for categorical data and 'mean' for numerical data.
 
-## **Data Analysis / Validation**
+# **Data Analysis / Validation**
 1) The first 5 questions in  this project are answered based on statistical analysis our in this analysis.
 
 2) Question 6 required the use of Modeling:
@@ -85,9 +85,9 @@ This analysis is part of an iterative process and will continue to see improveme
 
 * The r_squared score on the model was 0.9424618175355847
 
-## **Results & Visualizations :**
+# **Results & Visualizations :**
 Summary results and visualizations of the analysis may be found at https://khebel.medium.com/.  The main premise of the analysis is to view desirable compensation as one weighted to the national per capita gdp of one's country location rather than the absolute value of that compensation.  Detailed notes on the analysis and visualizations are contained in the jupyter notebook.
 
 
-## **Acknowledgements :**
-This analysis relies on the StackOverflow dataset and IMF datasets.    The author also relied heavily on panda documentation for the coding process.  In addition, there was additional instructional benefit taken from courses on Udacity and Kaggle.   Markdown and dataframe formatting guidance were taken from https://www.markdownguide.org/basic-syntax/ and https://mkaz.blog/code/python-string-format-cookbook/, respectively.  
+# **Acknowledgements :**
+This analysis relies on the StackOverflow dataset and IMF datasets.    The author also relied heavily on panda documentation for the coding process.  In addition, there was additional instructional benefit taken from courses on Udacity, Kaggle and StackOverFlow.   Markdown and dataframe formatting guidance were taken from https://www.markdownguide.org/basic-syntax/ and https://mkaz.blog/code/python-string-format-cookbook/, respectively.  
