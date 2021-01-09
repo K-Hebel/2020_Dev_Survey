@@ -27,11 +27,11 @@ This analysis is part of an iterative process and will continue to see improveme
 
 ## **Files Used :**
  The files used in this analysis were:
- 1) The 2020 StackOverflow dataset [HERE](https://insights.stackoverflow.com/survey/?_ga=2.206748819.1859624778.1609725307-1677851539.1609725307) - survey_results_public.csv
+ 1) The 2020 StackOverflow dataset [HERE](https://insights.stackoverflow.com/survey/?_ga=2.206748819.1859624778.1609725307-1677851539.1609725307 "StackOverFlow 2020 Survey") - survey_results_public.csv
  2) The StackOverflow schema - survey_results_schema.csv
  3) IMF 2019 per capita gdp for select countries -
  imf_data.csv
- * From the IMF Datamapper [HERE](https://www.imf.org/external/datamapper/NGDPDPC@WEO/USA/GBR/ESP/NLD/DEU/CAN/BEL/BRA/FRA/ITA/POL/IDN/GRC/ISR/CZE/BGR/HUN/SWE/CHE/UKR/IND/MEX/NGA/ROU/PRT/FIN/AUT/AUS/TUR/IRL/EST/PHL/LKA/HRV/ARG/IRN/NOR/LTU/DNK/SRB/SVK/RUS/BGD/ZAF/COL/CHL/CHN/NZL/SGP/VNM/MYS/JPN "IMF GDP Per Capita current prices US Dollars")  and based on the information provided by the  World Economic Outlook for October 2020 for GDP
+ * From the IMF Datamapper [HERE](https://www.imf.org/external/datamapper/NGDPDPC@WEO/AZE "IMF GDP Per Capita current prices US Dollars")  and based on the information provided by the  World Economic Outlook for October 2020 for GDP
  4) The jupyter notebook for this analysis - 2020 StackOverflow Survey - Project 1.ipynb
 
 # **Understanding the Data**
